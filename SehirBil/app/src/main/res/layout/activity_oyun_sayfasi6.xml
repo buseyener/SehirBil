@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/constraintColor"
+    tools:context=".oyunSayfasi6">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="185dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:onClick="yanliscevap"
+        android:text="ANKARA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="185dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:onClick="dogrucevap"
+        android:text="İSTANBUL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="364dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/istanbul" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="334dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Topkapı Sarayı hangi şehirdedir?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127031780480",
+    "project_id": "sehirbil-318c7",
+    "storage_bucket": "sehirbil-318c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127031780480:android:9c3b11df2056e7556bb265",
+        "android_client_info": {
+          "package_name": "com.buseYener.sehirbil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127031780480-j67f6k44j6guvc5jn63g2tuqqhao84ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARYIRkWDmolVa8yPbEf-67DCUg6bFQu7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127031780480-j67f6k44j6guvc5jn63g2tuqqhao84ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
